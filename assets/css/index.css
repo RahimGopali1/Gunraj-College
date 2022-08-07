@@ -1259,4 +1259,99 @@ h6 {
 }
 #team .card:hover .name, #team .card:hover .position {
   color: white;
+}
+
+#breadcrumb {
+  background: url(https://spalabdev.wpengine.com/wp-content/themes/spalab/images/breadcrumb-default-bg.jpg);
+}
+#breadcrumb .breadcrumb_content {
+  position: relative;
+  background-color: rgba(91, 54, 113, 0.495);
+}
+#breadcrumb .breadcrumb_content .content {
+  height: 12rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: center;
+  width: 100%;
+}
+#breadcrumb .breadcrumb_content .content .content_color {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 9%;
+}
+#breadcrumb .breadcrumb_content .content .content_color h1 {
+  padding-bottom: 2rem;
+  color: white;
+}
+#breadcrumb .breadcrumb_content .content .content_color .breadcrumb {
+  font-size: 20px;
+}
+#breadcrumb .breadcrumb_content .content .content_color .breadcrumb a {
+  color: white;
+}
+
+#teamMember .member_detail .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#teamMember .member_detail .content .content-img {
+  height: 25rem;
+  width: 150rem;
+}
+#teamMember .member_detail .content .content-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#teamMember .member_detail .content .content-text {
+  padding: 30px;
+}
+
+#contact h1 {
+  font-family: "Poppins", sans-serif, "arial";
+  font-weight: 600;
+  font-size: 72px;
+  color: #00d6a3;
+  text-align: center;
+}
+#contact h4 {
+  font-family: "Roboto", sans-serif, "arial";
+  font-weight: 400;
+  font-size: 20px;
+  color: #00d6a3;
+  line-height: 1.5;
+}
+
+#image .image-card {
+  height: 15rem;
+  width: 25rem;
+  position: relative;
+}
+#image .image-card .image-icon {
+  top: 45%;
+  left: 40%;
+  position: absolute;
+  font-size: 30px;
+  border: 1px solid #00d6a3;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #00d6a3;
+  display: none;
+  transition: 0.3 all ease-in-out;
+}
+#image .image-card img {
+  height: 100%;
+  width: 100%;
+}
+#image .image-card:hover {
+  background-color: rgba(240, 248, 255, 0.475);
+  z-index: 9999;
+}
+#image .image-card:hover .image-icon {
+  display: block;
 }/*# sourceMappingURL=index.css.map */
