@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/font awsome/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="assets/engine1/style.css" />
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Demo</title>
+</head>
+
+<body>
+    <!-- navbar Start  -->
+    <section id="nav-section">
+        <div class="top_header">
+            <div class="container">
+                <div class="top__content d-flex justify-content-between flex-wrap align-items-center">
+                    <div class="left__content d-flex justify-content-between flex-wrap w-50 py-2">
+                        <span><i class="fa-solid fa-location-dot"></i> <a>GPO Box: 13494, Chabahil, Kathmandu,
+                                Nepal</a></span>
+                        <span><i class="fa-solid fa-phone"></i><a href="tel: 01-4312345">Tel: 01-4312345</a></span>
+                        <span><i class="fa-solid fa-envelope"></i><a href="mailto: name@domain.com">Email:
+                                name@domain.com</a></span>
+                    </div>
+                    <div class="right__content d-flex justify-content-end align-items-center w-50 p-0">
+                        <button class="btn btn-primary admin_form">Admission Form</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggler" data-toggle="open-navbar1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <a href="#">
+                        <div class="logo d-flex align-items-center">
+                            <img src="https://gpmnc.edu.np/img/logo.PNG" alt="">
+                            <h3>GPMNC</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="navbar-menu" id="open-navbar1">
+                    <ul class="navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About GPMNC</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Result</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="bottom__header  position-relative">
+            <div class="container">
+                <div class="bottom__header-content d-flex">
+                    <div
+                        class="content__left d-flex justify-content-between align-items-center flex-wrap w-75 py-3 pe-5">
+                        <div class="content d-flex align-items-center">
+                            <div class="icon__holder">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <span>Chairman Message</span>
+                        </div>
+                        <div class="content d-flex align-items-center">
+                            <div class="icon__holder">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <span>Events</span>
+                        </div>
+                        <div class="content d-flex align-items-center">
+                            <div class="icon__holder">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <span>Program</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="content__right d-flex justify-content-end align-items-end w-25 position-absolute bottom-0 end-0">
+                <div class="tel__no text-center w-100 p-1">
+                    <span><i class="fa-solid fa-phone"></i><a href="tel: 01-4312345" class="ps-2">Tel:
+                            01-4312345</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- navbar End  -->
+
+    <!-- SLider Section Start  -->
+    <section id="main-body-section">
+        <div class="slider__holder">
+            <div id="wowslider-container1">
+                <div class="overlay">
+                    <div class="ws_images">
+                        <ul>
+                            <li><img src="assets/data1/images/1.jpg" alt="We Provide the Better Education System"
+                                    title="We Provide the Better Education System" id="wows1_0" />Worlds best
+                                Environment .
+                            </li>
+                            <li><img src="assets/data1/images/2.jpg" alt="slider jquery" title="Better Practical"
+                                    id="wows1_1" />Worlds best Environment .</li>
+                            <li><img src="assets/data1/images/3.jpg" alt="We Provide the Better Education System"
+                                    title="We Provide the Better Education System" id="wows1_2" />We Provide the Better
+                                Education System</li>
+                        </ul>
+                    </div>
+                    <div class="ws_bullets">
+                        <div>
+                            <a href="#" title="We Provide the Better Education System"><span><img
+                                        src="assets/data1/tooltips/1.jpg"
+                                        alt="We Provide the Better Education System" />1</span></a>
+                            <a href="#" title="Better Practical"><span><img src="assets/data1/tooltips/2.jpg"
+                                        alt="Better Practical" />2</span></a>
+                            <a href="#" title="We Provide the Better Education System"><span><img
+                                        src="assets/data1/tooltips/3.jpg"
+                                        alt="We Provide the Better Education System" />3</span></a>
+                        </div>
+                    </div>
+                    <div class="ws_shadow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="service__holder">
+                <div class="card parent__card">
+                    <div class="card-body pb-1">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <div class="card border-0 service__list mb-2">
+                                    <div class="card-body text-center">
+                                        <div class="card_icon">
+                                            <i class="las la-bus"></i>
+                                        </div>
+                                        <div class="card-desc">
+                                            <h4>Transportation</h4>
+                                            <p class="mb-1">Any device used to move an item from one location to
+                                                another. Common forms
+                                                of transportation include planes, trains, automobiles, and other
+                                                two-wheel
+                                                devices such as bikes or motorcycles.....</p>
+                                            <a href="#">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <div class="card border-0 service__list mb-2">
+                                    <div class="card-body text-center">
+                                        <div class="card_icon">
+                                            <i class="las la-laptop"></i>
+                                        </div>
+                                        <div class="card-desc">
+                                            <h4>Computer Lab</h4>
+                                            <p class="mb-1">Any device used to move an item from one location to
+                                                another. Common forms
+                                                of transportation include planes, trains, automobiles, and other
+                                                two-wheel
+                                                devices such as bikes or motorcycles.....</p>
+                                            <a href="#">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <div class="card border-0 service__list mb-2">
+                                    <div class="card-body text-center">
+                                        <div class="card_icon">
+                                            <i class="las la-book-open"></i>
+                                        </div>
+                                        <div class="card-desc">
+                                            <h4>Library</h4>
+                                            <p class="mb-1">Any device used to move an item from one location to
+                                                another. Common forms
+                                                of transportation include planes, trains, automobiles, and other
+                                                two-wheel
+                                                devices such as bikes or motorcycles.....</p>
+                                            <a href="#">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SLider Section End  -->
+
+    <!-- College Program Start  -->
+    <section id="program-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 d-lg-none d-md-none d-sm-block">
+                    <div class="program__image">
+                        <div class="border__1">
+                            <div class="border__2">
+                                <div class="border__3">
+                                    <div class="border__4">
+                                        <img src="assets/image/4.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12">
+                    <div class="program__description">
+                        <div class="text-muted">Our Programs</div>
+                        <h3>MOST POPULAR PROGRAM IN GPMNC</h3>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et enim perferendis animi, ipsam
+                            dignissimos voluptates architecto commodi excepturi rem quos nulla, fugit ipsum est.
+                            Provident nisi deleniti nemo placeat numquam est! Exercitationem sunt esse eum debitis
+                            soluta fugit tempore, delectus eius eos! Modi laudantium quaerat rem, veniam aliquam facere
+                            eligendi ad, neque laborum unde nihil nulla a accusantium molestiae numquam!</span>
+                        <h5 class="mt-3">Program Events</h5>
+                        <div class="program__list">
+                            <ul>
+                                <li>PCL Nursing</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="desc__btn text-center">
+                        <a href="#" class="btn btn-custom">VIEW MORE</a>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 d-lg-block d-md-block d-sm-none dispay__none">
+                    <div class="program__image">
+                        <div class="border__1">
+                            <div class="border__2">
+                                <div class="border__3">
+                                    <div class="border__4">
+                                        <img src="assets/image/4.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- College Program End  -->
+
+    <!-- College Timetable Start  -->
+    <section id="time-table">
+        <!-- <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="time__table-img">
+                        <img src="https://gpmnc.edu.np/upload-images/bsc1.jpeg" alt="" width="100%" height="100%">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="time__table-desc">
+                        <div class="text-muted">Timetable</div>
+                        <h3 class="mb-0">Opening Hours</h3>
+                        <p>College Is Closed Every Saturday.</p>
+                        <div class="time__schedule mt-5">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12 border-whole border-top-0 border-start-0">
+                                    <div>
+                                        <h3>Sunday</h3>
+                                        <p class="time__holder">9:00 AM - 4:00 PM</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 border-whole border-top-0">
+                                    <div>
+                                        <h3>Monday</h3>
+                                        <p class="time__holder">9:00 AM - 4:00 PM</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 border-whole border-top-0 border-end-0">
+                                    <div>
+                                        <h3>Tuesday</h3>
+                                        <p class="time__holder">9:00 AM - 4:00 PM</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 border-whole border-start-0 border-bottom-0">
+                                    <div>
+                                        <h3>Wednesday</h3>
+                                        <p class="time__holder">9:00 AM - 4:00 PM</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 border-whole border-bottom-0">
+                                    <div>
+                                        <h3>Thursday</h3>
+                                        <p class="time__holder">9:00 AM - 4:00 PM</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 border-whole border-bottom-0 border-end-0">
+                                    <div>
+                                        <h3>Friday</h3>
+                                        <p class="time__holder">9:00 AM - 4:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="timetable__holder">
+            <div class="table__table-img">
+                <img src="https://gpmnc.edu.np/upload-images/bsc1.jpeg" alt="" width="100%" height="100%">
+            </div>
+            <div class="time__table-schedule">
+                <div class="top-header">
+                    <div class="text-muted">Timetable</div>
+                    <h3 class="mb-0">Opening Hours</h3>
+                    <p>College Is Closed Every Saturday.</p>
+                </div>
+                <div class="time__schedule mt-4">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12 border-whole border-top-0 border-start-0">
+                            <div>
+                                <h3>Sunday</h3>
+                                <p class="time__holder">9:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 border-whole border-top-0">
+                            <div>
+                                <h3>Monday</h3>
+                                <p class="time__holder">9:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 border-whole border-top-0 border-end-0">
+                            <div>
+                                <h3>Tuesday</h3>
+                                <p class="time__holder">9:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 border-whole border-start-0 border-bottom-0">
+                            <div>
+                                <h3>Wednesday</h3>
+                                <p class="time__holder">9:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 border-whole border-bottom-0">
+                            <div>
+                                <h3>Thursday</h3>
+                                <p class="time__holder">9:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 border-whole border-bottom-0 border-end-0">
+                            <div>
+                                <h3>Friday</h3>
+                                <p class="time__holder">9:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- College Timetable End  -->
+
+    <!-- Services Section Start  -->
+    <section id="services">
+        <div class="services__container">
+            <div class="container section-padding">
+                <div class="top-header">
+                    <div class="row">
+                        <div class="col-md-9 col-sm-12 text-md-start text-sm-center resc__center">
+                            <div class="text-muted">Our Services</div>
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio laudantium
+                                exercitationem
+                                error est reiciendis nam facilis expedita.</p>
+                        </div>
+                        <div class="col-md-3 col-sm-12 text-md-end text-sm-center resc__center">
+                            <button class="btn btn-custom mt-4">MORE SERVICES</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card bg-transparent p-3">
+                            <div class="card-body text-center p-4">
+                                <div class="icon__holder">
+                                    <i class="fa-solid fa-book-open"></i>
+                                </div>
+                                <h5>Education</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, hic? Lorem ipsum
+                                    dolor sit amet.</p>
+                                <a href="#">VIEW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent p-3">
+                            <div class="card-body text-center p-4">
+                                <div class="icon__holder">
+                                    <i class="fa-solid fa-book-open"></i>
+                                </div>
+                                <h5>Education</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, hic? Lorem ipsum
+                                    dolor sit amet.</p>
+                                <a href="#">VIEW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent p-3">
+                            <div class="card-body text-center p-4">
+                                <div class="icon__holder">
+                                    <i class="fa-solid fa-book-open"></i>
+                                </div>
+                                <h5>Education</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, hic? Lorem ipsum
+                                    dolor sit amet.</p>
+                                <a href="#">VIEW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent p-3">
+                            <div class="card-body text-center p-4">
+                                <div class="icon__holder">
+                                    <i class="fa-solid fa-book-open"></i>
+                                </div>
+                                <h5>Education</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, hic? Lorem ipsum
+                                    dolor sit amet.</p>
+                                <a href="#">VIEW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent p-3">
+                            <div class="card-body text-center p-4">
+                                <div class="icon__holder">
+                                    <i class="fa-solid fa-book-open"></i>
+                                </div>
+                                <h5>Education</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, hic? Lorem ipsum
+                                    dolor sit amet.</p>
+                                <a href="#">VIEW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent p-3">
+                            <div class="card-body text-center p-4">
+                                <div class="icon__holder">
+                                    <i class="fa-solid fa-book-open"></i>
+                                </div>
+                                <h5>Education</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, hic? Lorem ipsum
+                                    dolor sit amet.</p>
+                                <a href="#">VIEW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End  -->
+    <!-- Team Section Start  -->
+    <section id="Team-section" class="section-padding">
+        <div class="container">
+            <div class="top-header">
+                <div class="row">
+                    <div class="col-md-9 col-sm-12 text-md-start text-sm-center resc__center">
+                        <div class="text-muted">Our Services</div>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio laudantium
+                            exercitationem
+                            error est reiciendis nam facilis expedita.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-md-end text-sm-center resc__center">
+                    </div>
+                </div>
+            </div>
+            <!-- Swiper -->
+            <div class="Team__slider-holder">
+                <div class="swiper team_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img">
+                                        <img src="https://gpmnc.edu.np/upload-images/Meera%20Maam%20copy.jpg"
+                                            width="100%" height="100%" alt="">
+                                    </div>
+                                    <div class="text-center">
+                                        <p class="card-text mb-0">2nd Year Coordinator</p>
+                                        <h5 class="card-title">MEERA THAPA</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img">
+                                        <img src="https://gpmnc.edu.np/upload-images/Sova%20Maam%20copy.jpg"
+                                            width="100%" height="100%" alt="">
+                                    </div>
+                                    <div class="text-center">
+                                        <p class="card-text mb-0">1st Year Coordinator</p>
+                                        <h5 class="card-title">SOVA KC</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img">
+                                        <img src="https://gpmnc.edu.np/upload-images/Yamuna%20Maan%20copy.jpg"
+                                            width="100%" height="100%" alt="">
+                                    </div>
+                                    <div class="text-center">
+                                        <p class="card-text mb-0">3rd Year Coordinator</p>
+                                        <h5 class="card-title">YAMUNA GURUNG SINGH</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img">
+                                        <img src="https://gpmnc.edu.np/upload-images/Kamala%20Maam.jpg" width="100%"
+                                            height="100%" alt="">
+                                    </div>
+                                    <div class="text-center">
+                                        <p class="card-text mb-0">CAMPUS CHIEF</p>
+                                        <h5 class="card-title">KAMALA MANANDHAR</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img">
+                                        <img src="https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+                                            width="100%" height="100%" alt="">
+                                    </div>
+                                    <div class="text-center">
+                                        <p class="card-text mb-0">Teacher</p>
+                                        <h5 class="card-title">JASHMIN SMITH</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <!-- swiper end -->
+        </div>
+    </section>
+    <!-- Team Section End  -->
+    <!-- Testimonial Section -->
+    <section id="testim">
+        <div class="testimonial text-center">
+            <div class="container">
+                <div class="heading white-heading">
+                    Testimonial
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-duration="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonial4_slide">
+                                <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. </p>
+                                <h4>Client 1</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. </p>
+                                <h4>Client 3</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. </p>
+                                <h4>Client 3</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Testimonial Section -->
+
+    <!-- sponsore slider start  -->
+    <section id="slick__slider" class="section-padding">
+        <div class="container">
+            <!-- Swiper -->
+            <div class="swiper linear__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://gpmnc.edu.np/upload-images/log0o1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://gpmnc.edu.np/upload-images/Kanti-Childrens-Hospital-Final-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://gpmnc.edu.np/upload-images/mhl_banner-1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://gpmnc.edu.np/upload-images/log0o1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://gpmnc.edu.np/upload-images/Kanti-Childrens-Hospital-Final-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://gpmnc.edu.np/upload-images/mhl_banner-1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://gpmnc.edu.np/upload-images/log0o1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://gpmnc.edu.np/upload-images/Kanti-Childrens-Hospital-Final-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://gpmnc.edu.np/upload-images/mhl_banner-1.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sponsore slider start  -->
+
+    <!-- Article & News Section start  -->
+    <section id="article__news" class="section-padding">
+        <div class="container">
+            <div class="top-header">
+                <div class="row">
+                    <div class="col-md-9 col-sm-12 text-md-start text-sm-center resc__center">
+                        <div class="text-muted">Our Services</div>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                        <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio laudantium
+                            exercitationem
+                            error est reiciendis nam facilis expedita.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-md-end text-sm-center resc__center">
+                        <button class="btn btn-custom mt-4">MORE SERVICES</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card news__card">
+                        <div class="card-img">
+                            <img src="https://gpmnc.edu.np/upload-images/gpmnc.JPG" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="card-body">
+                            <div class="date__holder">
+                                <h5>15</h5>
+                                <span>Nov 2022</span>
+                            </div>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nobis tempora dolor!
+                                Voluptates libero iusto nam quia sequi, aspernatur est.</p>
+                            <a href="#">READ MORE ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card news__card">
+                        <div class="card-img">
+                            <img src="https://gpmnc.edu.np/upload-images/gpmnc.JPG" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="card-body">
+                            <div class="date__holder">
+                                <h5>15</h5>
+                                <span>Nov 2022</span>
+                            </div>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nobis tempora dolor!
+                                Voluptates libero iusto nam quia sequi, aspernatur est.</p>
+                            <a href="#">READ MORE ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card news__card">
+                        <div class="card-img">
+                            <img src="https://gpmnc.edu.np/upload-images/gpmnc.JPG" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="card-body">
+                            <div class="date__holder">
+                                <h5>15</h5>
+                                <span>Nov 2022</span>
+                            </div>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nobis tempora dolor!
+                                Voluptates libero iusto nam quia sequi, aspernatur est.</p>
+                            <a href="#">READ MORE ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Article & News Section End  -->
+    
+    <!-- Footer start  -->
+    <footer>
+        <section id="footer">
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div class="college-info d-flex align-items-center">
+                                <div class="icon_holder">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="text_holder">
+                                    <h5>+977-9812345678</h5>
+                                    <span>Have a Question? Call Us Now</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div class="college-info d-flex align-items-center">
+                                <div class="icon_holder">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="text_holder">
+                                    <h5>schoolname@domian.com</h5>
+                                    <span>Need Support? Drop Us Email</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div class="college-info d-flex align-items-center">
+                                <div class="icon_holder">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="text_holder">
+                                    <h5>College Location, Nepal</h5>
+                                    <span>GPO Box: 12345</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="main-footer">
+                <div class="container section-padding">
+                    <div class="row sm__padding">
+                        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                            <h5>About College</h5>
+                            <div class="footer-logo">
+                                <img src="https://gpmnc.edu.np/img/logo.PNG" alt="" width="100%" height="100%">
+                            </div>
+                            <div class="about-college">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dicta molestiae
+                                    molestias
+                                    adipisci sed inventore rerum quod atque nam eos! Lorem ipsum dolor sit amet
+                                    consectetur
+                                    adipisicing elit. Fugit sed accusantium iste ut nihil blanditiis.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-12 mt-3">
+                            <div class="quick__links">
+                                <h5>Quick Links</h5>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                    <li><a href="#">Result</a></li>
+                                    <li><a href="#">Login</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                            <div class="lastest__news">
+                                <h5>Latest News</h5>
+                                <ul>
+                                    <li>
+                                        <div class="d-flex align-items-center justify-content-start">
+                                            <div class="news__image">
+                                                <img src="https://gpmnc.edu.np/upload-images/gpmnc.JPG" alt=""
+                                                    width="100%" height="100%">
+                                            </div>
+                                            <div class="new__text">
+                                                <div class="text-muted small">
+                                                    November 15, 2018
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+                                                    ut.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center justify-content-start">
+                                            <div class="news__image">
+                                                <img src="https://gpmnc.edu.np/upload-images/gpmnc.JPG" alt=""
+                                                    width="100%" height="100%">
+                                            </div>
+                                            <div class="new__text">
+                                                <div class="text-muted small">
+                                                    November 15, 2018
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+                                                    ut.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center justify-content-start">
+                                            <div class="news__image">
+                                                <img src="https://gpmnc.edu.np/upload-images/gpmnc.JPG" alt=""
+                                                    width="100%" height="100%">
+                                            </div>
+                                            <div class="new__text">
+                                                <div class="text-muted small">
+                                                    November 15, 2018
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+                                                    ut.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                            <h5>Opening Hours</h5>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Sunday</td>
+                                        <td>9:00 AM - 4:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Monday</td>
+                                        <td>9:00 AM - 4:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tuesday</td>
+                                        <td>9:00 AM - 4:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wednesday</td>
+                                        <td>9:00 AM - 4:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Thursday</td>
+                                        <td>9:00 AM - 4:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Friday</td>
+                                        <td>9:00 AM - 4:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Saturday</td>
+                                        <td>Holiday</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright__holder text-center">
+                <p>Copyright &copy;<span id="copyright">
+                        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                    </span> by <a href="#">AllstarTechnology</a></p>
+            </div>
+        </section>
+    </footer>
+    <!-- Footer End  -->
+
+    <!-- Jquery  -->
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <!-- /Jquery  -->
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- /bootstrap -->
+    <script type="text/javascript" src="assets/engine1/wowslider.js"></script>
+    <script type="text/javascript" src="assets/engine1/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- /Swiper JS -->
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
